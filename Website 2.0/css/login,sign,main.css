@@ -1,0 +1,262 @@
+/* Navigation Bar  (2 -> 47)*/
+body
+{
+    background-image: url("../other pic/background.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+div.navbar
+{
+    width: 80%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+div.navbar dl dt 
+{
+    display:inline;
+    margin: 30px;
+}
+
+div.navbar a
+{
+    color: white;
+    text-decoration: none;
+}
+
+div.navbar dl dt input.BTNlogin
+{
+    background: transparent;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid white;
+    transition: .3s;
+}
+
+div.navbar dl dt input.BTNlogin:hover
+{
+    background: white;
+    color: black;
+}
+
+/* Content */
+h2.mobile
+{
+    color: white;
+}
+
+img 
+{
+    height: 138px;
+    width: 212px;
+}
+
+h2.tab
+{
+    color: white;
+}
+
+body img
+{
+    border-radius: 20px;
+}
+
+/* Sign Up */
+h1.register
+{
+    text-align: center;
+    color: white;
+}
+
+div.signup
+{
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    backdrop-filter: blur(20px);
+
+    border-radius: 20px;
+}
+
+table.signupTable
+{
+    font-size: larger;
+}
+
+table.signupTable td
+{
+    width: 200px;
+    padding: 17px;
+}
+
+table.signupTable tr
+{
+    color: white;
+}
+
+table.signupTable tr td a.rules
+{
+    color: white;
+}
+
+table.signupTable tr.se td input.register
+{
+    background: transparent;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 3px;
+    border: solid white;
+    transition: .3s;
+}
+
+table.signupTable tr.se td input.register:hover
+{
+    background: white;
+    color: black;
+}
+
+table.signupTable tr.se td input.reset
+{
+    background: transparent;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 3px;
+    border: solid white;
+    transition: .3s;
+}
+
+table.signupTable tr.se td input.reset:hover
+{
+    background: white;
+    color: black;
+}
+
+div.signin
+{
+    width: 360px;
+    height: 350px;
+    margin: auto;
+    backdrop-filter: blur(20px);
+
+    margin-top: 50px;
+
+    border-radius: 20px;
+}
+
+table.signinTable
+{
+    font-size: larger;
+}
+
+table.signinTable td
+{
+    width: 800px;
+    padding: 20px;
+}
+
+table.signinTable tr
+{
+    color: white;
+}
+
+table.signinTable tr.s td input.login
+{
+    background: transparent;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 3px;
+    border: solid white;
+    transition: .3s;
+    margin-left: 125px;
+    margin-top: 25px;
+}
+
+table.signinTable tr.s td input.login:hover
+{
+    background: white;
+    color: black;
+}
+
+
+/*Main*/
+
+body p.phonelogo img
+{
+    border-radius: 20px;
+    transition: 1s;
+}
+body p.phonelogo img:hover
+{
+    transform: scale(1.2);
+}
+
+body img.logo
+{
+    width: 250px;
+    height: 80px;
+}
+
+img.logo
+{
+        width: 250px;
+        height: 80px;
+}
+
+body input.back
+{
+    background: transparent;
+    color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 3px;
+    border: solid white;
+    transition: .3s;
+}
+
+body input.back:hover
+{
+    background: white;
+    color:black;
+}
+
+
+p.about
+{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+div.about
+{ 
+    width: 955px;
+    height: 660px;
+    margin-left: 15%;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+}
+
+h1.about
+{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+img.tele
+{
+    width: 100%;
+    height: 200%;
+    text-align: center;
+}

@@ -1,0 +1,115 @@
+body.all
+{
+    background-image: url("../other pic/background.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family:'Courier New', Courier, monospace
+}
+img.logo
+{
+        width: 250px;
+        height: 80px;
+}
+body input.back
+{
+    background: transparent;
+    color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 3px;
+    border: solid white;
+    transition: .3s;
+}
+body input.back:hover
+{
+    background: white;
+    color:black;
+}
+table.all td
+{
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
+table.all 
+{
+    border: 4px solid aqua;
+    border-collapse: collapse;
+}
+div.alltabs
+{   
+    width: 960px;
+    height: 1220px;
+    margin-left: 15%;
+    backdrop-filter: blur(20px);
+
+    border-radius: 20px;
+}
+body.all div table.all img
+{
+   border-radius: 20px;
+   transition: 2s;
+}
+body.all div table.all img:hover
+{
+    transform: scale(1.1);
+}
+b.t
+{
+    color:darkorchid;
+}
+b.price
+{
+    color: greenyellow;
+}
+div.allphones
+{   
+    width: 960px;
+    height: 1800px;
+    margin-left: 15%;
+    backdrop-filter: blur(20px);
+
+    border-radius: 20px;
+}
+
+
+
+div.navbar
+{
+    width: 80%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+div.navbar dl dt 
+{
+    display:inline;
+    margin: 30px;
+}
+
+div.navbar a
+{
+    color: white;
+    text-decoration: none;
+}
+
+input.cart
+{
+    background: transparent;
+    color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    border: solid white;
+    transition: .3s;
+}
+
+input.cart:hover
+{
+    background: aqua;
+    color:black;
+}

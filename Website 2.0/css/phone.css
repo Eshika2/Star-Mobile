@@ -1,0 +1,166 @@
+body
+{
+    background-image: url("../other pic/background.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+img.logo
+{
+        width: 250px;
+        height: 80px;
+}
+
+body img
+{
+   border-radius: 20px;
+   transition: 2s;
+}
+body img:hover
+{
+    transform: scale(1.1);
+}
+
+table.phones
+{
+    
+    width:940px;
+    
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    border:3px solid aqua;
+    border-collapse: collapse;
+}
+
+table.phones td 
+{
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
+
+div.phones
+{   
+    width: 955px;
+    height: 595px;
+    margin-left: 15%;
+    backdrop-filter: blur(20px);
+
+    border-radius: 20px;
+}
+
+b.phones
+{
+    color:darkorchid;
+}
+b.price
+{
+    color: greenyellow;
+}
+
+/*iphone 15 pro max, 15 pro, 13*/
+table.table
+{
+    margin-left: 300px;
+    width: 700px;
+    padding: 10px;
+    border: 5px solid aqua;
+    border-collapse: collapse;
+}
+
+div.F1 img 
+{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 5px;
+    transition: 2s;
+}
+
+div.F1 img:hover
+{
+    transform: scale(1.1);
+}
+
+table.table td
+{
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
+
+table.table th
+{
+    font-family: sans-serif;
+    color: red;
+    text-transform:uppercase;
+}
+
+body input.back
+{
+    background: transparent;
+    color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 3px;
+    border: solid white;
+    transition: .3s;
+}
+
+body input.back:hover
+{
+    background: white;
+    color:black;
+}
+
+
+div.navbar
+{
+    width: 80%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+div.navbar dl dt 
+{
+    display:inline;
+    margin: 30px;
+}
+
+div.navbar a
+{
+    color: white;
+    text-decoration: none;
+}
+
+input.cart
+{
+    background: transparent;
+    color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    border: solid white;
+    transition: .3s;
+}
+
+input.cart:hover
+{
+    background: aqua;
+    color:black;
+}
+
+div.status img
+{
+    width: 300px;
+    height: 400px;
+}
+div.status
+{
+    margin-left: 350px;
+}
